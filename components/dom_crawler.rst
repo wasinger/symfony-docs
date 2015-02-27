@@ -11,6 +11,9 @@ The DomCrawler Component
 
     While possible, the DomCrawler component is not designed for manipulation
     of the DOM or re-dumping HTML/XML.
+    
+    For that use case, the `HtmlPageDom`_ project on Github extends 
+    :class:`Symfony\\Component\\DomCrawler\\Crawler` by adding jQuery-style DOM manipulation functions.
 
 Installation
 ------------
@@ -379,3 +382,4 @@ directly::
 
 .. _`Goutte`:  https://github.com/fabpot/goutte
 .. _Packagist: https://packagist.org/packages/symfony/dom-crawler
+.. _`HtmlPageDom`: https://github.com/wasinger/htmlpagedom
